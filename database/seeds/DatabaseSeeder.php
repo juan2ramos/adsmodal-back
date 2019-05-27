@@ -11,6 +11,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+
+        \App\Models\Customer::create([
+            'code' => unique_code(),
+            'name' => 'Ancla S.A.S',
+            'url' => 'https://ancla.la',
+        ]);
+
         // $this->call(UsersTableSeeder::class);
     }
 }
