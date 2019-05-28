@@ -35,6 +35,7 @@ class LeadRequest extends FormRequest
             'page-request' => url()->previous(),
             'page-referrer' => $this->get('referrer'),
             'action' => $this->get('action'),
+            'code-google-analytics' => $this->get('gacid'),
         ]);
         return $this->data($cookie);
     }
@@ -61,7 +62,7 @@ class LeadRequest extends FormRequest
                                         'regex' => 'productos'
                                     ),
                                     array(
-                                        'path'=>'/contacto',
+                                        'path'=>'/contacto/',
                                         'regex' => false
                                     )
                                 ),

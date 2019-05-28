@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Lead extends Model
 {
-    protected $fillable = ['cookie','ip','userAgent','fingerprint','page-request','page-referrer','action'];
+    protected $fillable = ['cookie','ip','userAgent','fingerprint','page-request','page-referrer','action', 'code-google-analytics'];
 
 }
