@@ -4,6 +4,6 @@ Route::post('get-info-initial', function (\App\Http\Requests\api\LeadRequest $re
     $lead = new \App\Http\Controllers\api\LeadController();
     return $lead->store($request);
 });
-Route::get('/', function (){
-    return 'asdas';
+Route::get('send', function (){
+    return 'Send';
 });
