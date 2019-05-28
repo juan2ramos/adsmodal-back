@@ -214,7 +214,7 @@ class LeadRequest extends FormRequest
                                                             'text' => 'Quiero la asesoría',
                                                         ),
                                                 ),
-                                            'action' => 'http://api.artico.io/api/send',
+                                            'action' => 'https://api.artico.io/api/send',
                                         ),
                                 ),
                         ),
