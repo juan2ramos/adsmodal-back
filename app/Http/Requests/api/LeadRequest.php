@@ -72,6 +72,17 @@ class LeadRequest extends FormRequest
             'content' =>
                 array(
                     0 =>
+                    array(
+                        'el' => 'span',
+                        'attr' =>
+                            array(
+                                'id' => 'ModalAdsClose',
+                            ),
+                        'text' => 'Cerrar Xs',
+                        'event' => 'click',
+                        'callback' => 'document.querySelector("#ModalAds").remove()'
+                    ),
+                    1 =>
                         array(
                             'el' => 'img',
                             'attr' =>
@@ -82,7 +93,7 @@ class LeadRequest extends FormRequest
                                 ),
                             'text' => '',
                         ),
-                    1 =>
+                    2 =>
                         array(
                             'el' => '#ModalAds-formContent',
                             'content' =>
