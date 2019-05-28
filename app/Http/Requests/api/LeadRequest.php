@@ -163,7 +163,7 @@ class LeadRequest extends FormRequest
                                                                 array(
                                                                     'placeholder' => 'Número de contacto',
                                                                     'required' => true,
-                                                                    'name' => 'Número',
+                                                                    'name' => 'number',
                                                                     'rules' =>
                                                                         array(
                                                                             0 => 'required',
