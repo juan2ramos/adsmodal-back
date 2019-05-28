@@ -4,7 +4,7 @@
     <list default="true" id="28a6f1f6-6839-4219-beea-0aae2135850f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_26_152130_leads.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +58,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="548">
+              <caret line="135" column="83" selection-start-line="135" selection-start-column="83" selection-end-line="135" selection-end-column="83" />
+              <folding>
+                <element signature="e#41#65#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +107,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_26_152130_leads.php" />
         <option value="$PROJECT_DIR$/../adsmodal/dist/js/adsmodal.js" />
         <option value="$PROJECT_DIR$/app/Models/Lead.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_28_152813_create_hits_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" />
       </list>
     </option>
   </component>
@@ -192,7 +196,7 @@
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -202,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,10 +213,22 @@
               <item name="adsmodal-back" type="b2602c69:ProjectViewProjectNode" />
               <item name="adsmodal-back" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adsmodal-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adsmodal-back" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adsmodal-back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adsmodal-back" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,18 +271,18 @@
       <updated>1558708725439</updated>
       <workItem from="1558708726565" duration="686000" />
       <workItem from="1558822278584" duration="252000" />
-      <workItem from="1558883383293" duration="30839000" />
+      <workItem from="1558883383293" duration="31171000" />
+      <workItem from="1559051357831" duration="1876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31777000" />
+    <option name="totallyTimeSpent" value="33985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="Database Console" weight="0.3287037" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -278,9 +293,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39444444" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39444444" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3287037" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" weight="0.25" />
       <window_info anchor="right" id="Database" order="1" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -446,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_26_152130_leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Lead.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -460,20 +469,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php">
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2753">
-          <caret line="221" column="10" lean-forward="true" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_26_152130_leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_152813_create_hits_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_28_152915_create_leads_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="135" column="83" selection-start-line="135" selection-start-column="83" selection-end-line="135" selection-end-column="83" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

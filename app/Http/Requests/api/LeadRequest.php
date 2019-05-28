@@ -133,6 +133,7 @@ class LeadRequest extends FormRequest
                                                                 array(
                                                                     'placeholder' => 'Nombre',
                                                                     'required' => true,
+                                                                    'name' => 'name',
                                                                     'rules' =>
                                                                         array(
                                                                             0 => 'required',
@@ -147,6 +148,7 @@ class LeadRequest extends FormRequest
                                                                     'type' => 'email',
                                                                     'placeholder' => 'E-mail',
                                                                     'required' => true,
+                                                                    'name' => 'email',
                                                                     'rules' =>
                                                                         array(
                                                                             0 => 'required',
@@ -161,6 +163,7 @@ class LeadRequest extends FormRequest
                                                                 array(
                                                                     'placeholder' => 'Número de contacto',
                                                                     'required' => true,
+                                                                    'name' => 'Número',
                                                                     'rules' =>
                                                                         array(
                                                                             0 => 'required',
@@ -210,6 +213,17 @@ class LeadRequest extends FormRequest
                                                                 array(
                                                                     'type' => 'submit',
                                                                     'style' => 'background: red; color:white',
+                                                                ),
+                                                            'text' => 'Quiero la asesoría',
+                                                        ),
+                                                    5 =>
+                                                        array(
+                                                            'el' => 'input',
+                                                            'attr' =>
+                                                                array(
+                                                                    'type' => 'hidden',
+                                                                    'value' => $cookie,
+                                                                    'name' => 'cookie'
                                                                 ),
                                                             'text' => 'Quiero la asesoría',
                                                         ),
