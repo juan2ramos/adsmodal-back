@@ -78,7 +78,7 @@ class LeadRequest extends FormRequest
                             array(
                                 'id' => 'ModalAdsClose',
                             ),
-                        'text' => 'Cerrar Xs',
+                        'text' => 'Cerrar X',
                         'event' => 'click',
                         'callback' => 'document.querySelector("#ModalAds").remove()'
                     ),
