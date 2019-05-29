@@ -41,7 +41,9 @@ class NewLead extends Notification
             ->subject('Nuevo lead desde ancla.la')
             ->from('hola@artico.io', 'Artico');
 
-        $mail->line('otra tavuel');
+        foreach ($this->data as $key => $data) {
+            $mail->line("$key: $data");
+        }
         return $mail;
     }
 
