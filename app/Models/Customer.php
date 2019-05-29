@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Customer extends Model
 {
 
-    public function leads()
+    public function hits()
     {
-        return $this->hasMany(Lead::class);
+        return $this->hasMany(Hit::class);
     }
 
 }

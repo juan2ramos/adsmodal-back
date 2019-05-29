@@ -18,6 +18,7 @@ class Customer extends Migration
             $table->string('code');
             $table->string('name');
             $table->string('url');
+            $table->string('email_contact');
             $table->timestamps();
         });
     }

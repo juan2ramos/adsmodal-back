@@ -13,8 +13,15 @@ class CreateLeadsTable extends Migration
      */
     public function up()
     {
-        Schema::create('hits', function (Blueprint $table) {
+        Schema::create('leads', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('page-request');
+            $table->string('page-request_full');
+            $table->string('page-referrer')->nullable();
+            $table->string('ip');
+            $table->string('hit_id');
+            $table->string('cookie');
+            $table->string('data');
             $table->timestamps();
         });
     }
@@ -26,6 +33,6 @@ class CreateLeadsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hits');
+        Schema::dropIfExists('leads');
     }
 }

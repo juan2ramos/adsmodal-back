@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
             'code' => unique_code(),
             'name' => 'Ancla S.A.S',
             'url' => 'https://ancla.la',
+            'email_contact' => 'juan2ramos@gmail.com',
         ]);
 
         // $this->call(UsersTableSeeder::class);
