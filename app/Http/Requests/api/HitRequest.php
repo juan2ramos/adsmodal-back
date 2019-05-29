@@ -237,7 +237,7 @@ class HitRequest extends FormRequest
                                                             'text' => 'Quiero la asesoría',
                                                         ),
                                                 ),
-                                            'action' => 'http://api.artico.io/api/user-notification',
+                                            'action' => 'https://api.artico.io/api/user-notification',
                                         ),
                                 ),
                         ),
