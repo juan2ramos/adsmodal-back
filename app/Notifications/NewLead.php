@@ -37,10 +37,14 @@ class NewLead extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)
+        $mail = (new MailMessage)
             ->subject('Nuevo lead desde la ')
             ->from('hola@artico.io', 'Artico')
-            ->view('mails.NewLead');
+            ->line($this->data)
+            ->line('!');
+
+        $mail->line('otra tavuel');
+        return $mail;
     }
 
     /**

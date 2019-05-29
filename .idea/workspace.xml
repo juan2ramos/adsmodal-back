@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28a6f1f6-6839-4219-beea-0aae2135850f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Hit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Hit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Lead.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Lead.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Notifications/NewLead.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Notifications/NewLead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_26_151236_customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_26_151236_customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_152813_create_hits_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_152813_create_hits_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_28_152915_create_leads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_28_152915_create_leads_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +38,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php">
+        <entry file="file://$PROJECT_DIR$/app/Notifications/NewLead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-              <folding>
-                <element signature="e#41#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -107,8 +92,8 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/api/LeadRequest.php" />
-        <option value="$PROJECT_DIR$/app/Notifications/NewLead.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php" />
+        <option value="$PROJECT_DIR$/app/Notifications/NewLead.php" />
       </list>
     </option>
   </component>
@@ -370,12 +355,12 @@
       <workItem from="1558708726565" duration="686000" />
       <workItem from="1558822278584" duration="252000" />
       <workItem from="1558883383293" duration="31171000" />
-      <workItem from="1559051357831" duration="18147000" />
+      <workItem from="1559051357831" duration="18530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50256000" />
+    <option name="totallyTimeSpent" value="50639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -394,7 +379,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.39444444" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3287037" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.1671875" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" weight="0.1671875" />
       <window_info anchor="right" id="Database" order="1" weight="0.175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -634,17 +619,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notifications/NewLead.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="221" column="46" selection-start-line="221" selection-start-column="46" selection-end-line="221" selection-end-column="46" />
+          <folding>
+            <element signature="e#41#84#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,20 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/app/Notifications/NewLead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/api/HitRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#84#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
