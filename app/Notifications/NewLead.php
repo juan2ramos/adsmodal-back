@@ -38,10 +38,8 @@ class NewLead extends Notification
     public function toMail($notifiable)
     {
         $mail = (new MailMessage)
-            ->subject('Nuevo lead desde la ')
-            ->from('hola@artico.io', 'Artico')
-            ->line($this->data)
-            ->line('!');
+            ->subject('Nuevo lead desde ancla.la')
+            ->from('hola@artico.io', 'Artico');
 
         $mail->line('otra tavuel');
         return $mail;
