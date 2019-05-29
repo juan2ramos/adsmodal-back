@@ -39,6 +39,7 @@ class NewLead extends Notification
     {
         $mail = (new MailMessage)
             ->subject('Nuevo lead desde ancla.la')
+            ->line('Se ha registrado un nuevo contacto en el sitio web de ancla con los siguientes datos:')
             ->from('hola@artico.io', 'Artico');
 
         foreach ($this->data as $key => $data) {
