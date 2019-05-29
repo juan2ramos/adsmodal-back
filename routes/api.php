@@ -1,5 +1,4 @@
 <?php
 
 Route::post('get-info-initial', 'HitsController@store');
-
-//Route::post('send', 'LeadController');
+Route::post('user-notification', 'LeadController@store');

@@ -15,13 +15,11 @@ class CreateLeadsTable extends Migration
     {
         Schema::create('leads', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('page-request');
-            $table->string('page-request_full');
-            $table->string('page-referrer')->nullable();
+            $table->string('page_request');
+            $table->string('page_referrer')->nullable();
             $table->string('ip');
-            $table->string('hit_id');
             $table->string('cookie');
-            $table->string('data');
+            $table->json('data');
             $table->timestamps();
         });
     }

@@ -15,13 +15,13 @@ class CreateHitsTable extends Migration
     {
         Schema::create('hits', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('code-google-analytics')->nullable();
+            $table->string('code_google_analytics')->nullable();
             $table->string('cookie');
             $table->string('ip');
             $table->string('userAgent');
             $table->string('fingerprint');
-            $table->string('page-request');
-            $table->string('page-referrer')->nullable();
+            $table->string('page_request');
+            $table->string('page_referrer')->nullable();
             $table->string('action');
 
             $table->unsignedBigInteger('customer_id');

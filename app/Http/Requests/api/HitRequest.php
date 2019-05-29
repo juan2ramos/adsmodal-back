@@ -39,10 +39,10 @@ class HitRequest extends FormRequest
             'ip' => $this->ip(),
             'userAgent' => $this->userAgent(),
             'fingerprint' => $this->fingerprint(),
-            'page-request' => url()->previous(),
-            'page-referrer' => $this->get('referrer'),
+            'page_request' => url()->previous(),
+            'page_referrer' => $this->get('referrer'),
             'action' => $this->get('action'),
-            'code-google-analytics' => $this->get('gacid'),
+            'code_google_analytics' => $this->get('gacid'),
         ]);
 
         return $this->data($cookie);
@@ -58,7 +58,7 @@ class HitRequest extends FormRequest
         return array(
             'cookie' => $cookie,
             'type' => 'form',
-            'time' => 10000,
+            'time' => 5000,
             'rules' =>
                 array(
                     'pageViews' =>
@@ -237,7 +237,7 @@ class HitRequest extends FormRequest
                                                             'text' => 'Quiero la asesoría',
                                                         ),
                                                 ),
-                                            'action' => 'http://api.artico.io/api/get-info-initial',
+                                            'action' => 'http://api.artico.io/api/user-notification',
                                         ),
                                 ),
                         ),
